@@ -88,7 +88,7 @@ module Bosh::Bootstrap::MicroboshProviders
 
     # TODO Allow discovery of an appropriate OpenStack flavor with 2+CPUs, 3+G RAM
     def resources_cloud_properties
-      {"instance_type"=>"m1.medium"}
+      {"instance_type"=>"standard.medium"}
     end
 
     def provider_state_timeout
